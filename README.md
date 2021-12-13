@@ -1,6 +1,6 @@
 # Vocab Dictionary
 
-**Description:** I am well enough in English but my vocabulary is poor. There are some words which I come across frequently but always forget the meaning. So I made this program to help me out. If I find an unknown word, I can search for it's definition and then add it to this dictionary and search for it whenever I need it. I know I can simply google it but wanted to flex my coding skills 😜.
+**Description:** I am good enough in English but my vocabulary is poor. There are some words which I come across frequently but always forget the meaning. So I made this program to help me out. If I find an unknown word, I can search for it's definition and then add it to this dictionary and search for it whenever I need it. I know I can simply google it but wanted to flex my coding skills 😜.
 
 ## What is what?
 
