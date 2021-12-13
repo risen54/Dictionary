@@ -3,19 +3,11 @@ from random import choice
 
 def main():
     def searcher(word):
-        with open('file.txt') as f:
-            content = f.readlines()
-            i = 0
-            while True:
-                if i < len(content):  # Just keeps sure it is in the file length
-                    if word in content[i]:
-                        print("There you go!\n" + content[i])
-                        break
-                    else:
-                        i += 1
-                else:
-                    print("Sadly... Georgenotfound...")  # The end...
-                    break
+        data = [line for line in open('file.txt').readlines() if word in line]  # Checks if word exists
+        if data:
+            print("There you go!\n" + data[0])
+        else:
+            print("Sadly... Georgenotfound...")  # The End
 
     def adder(word, meaning):
         with open('file.txt', 'a') as f:
